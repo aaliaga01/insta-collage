@@ -1,0 +1,26 @@
+
+#inicio{
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+	padding-top: 10px;
+}
+
+/*estilos IDIOMA*/
+.idioma{
+	background-color: transparent;
+	color:white;
+	border:none;
+	text-align: right;
+}
+
+.logotipo{
+	padding: 50px 0;
+}
+
+.logotipo img{
+	width: 100%;
+}
+
+.nombre-ing{
+	width: 80%;
+}
