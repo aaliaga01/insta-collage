@@ -113,27 +113,36 @@ a:hover{
 /*estilos SECCION*/
 /**/
 #principal-seccion{
-	background-color: grey;
+	background-color: black;
 	height: 100vh;
 }
 
 .foto-larga{
-	height: 400px;
+	height: 340px;
 	border:solid 3px white;
 }
 
 .foto-chica1{
-	height: 200px;
+	height: 170px;
 	border:solid 3px white;
 }
 
 .foto-chica2{
-	height: 200px;
+	height: 170px;
 	border:solid 3px white;
+}
+
+.nomarg{
+	margin: 0;
+	padding: 0;
+}
+
+#galeria{
+	background-color:black;
+	padding-bottom: 0;
 }
 
 #galeria img{
 	margin: 0;
 	padding: 0;
-	width: 100%;
 }
