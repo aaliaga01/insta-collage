@@ -100,17 +100,40 @@ img{
 	font-size: 14px;
 }
 
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: silver;
+	text-decoration: none;
+}
+
 /*estilos SECCION*/
-.marco-foto {
-  min-height: 150px;
-  border: 2px solid black;
-  margin-top: 20px;
+/**/
+#principal-seccion{
+	background-color: grey;
+	height: 100vh;
 }
 
-#collage{
-	width: 400px;
+.foto-larga{
+	height: 400px;
+	border:solid 3px white;
 }
 
-#fotos{
-	width: 20%;
+.foto-chica1{
+	height: 200px;
+	border:solid 3px white;
+}
+
+.foto-chica2{
+	height: 200px;
+	border:solid 3px white;
+}
+
+#galeria img{
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }

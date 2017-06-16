@@ -1,3 +1,5 @@
+//para poder arrastrar y pegar fotos
+
 function drag(ev) {
   console.log(ev.target.src);
   ev.dataTransfer.setData('text', ev.target.id);

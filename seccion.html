@@ -10,16 +10,59 @@
 </head>
 
 <body>
-	<div id="seccion2">
-		<section id="collage">
-			<div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
-			<div class="marco-foto" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
-		</section>
 
-		<section id="fotos">
-			<img id="foto4" draggable="true" ondragstart="drag(event)" src="img/foto4.jpg">
-			<img id="foto2" draggable="true" ondragstart="drag(event)" src="img/foto2.jpg">
-		</section>
+	<div id="principal-seccion">
+
+	<section id="collage">
+			<div class="row">
+			<div class="col-md-12 col-xs-12 col-md-offset-3">
+				<div class="col-md-3 col-xs-6 foto-larga" ondragover="permitirDrop(event)" ondrop="drop(event)"> <!-- columna lado izquierdo -->
+				</div>
+				<div class="col-md-8 col-xs-6"> <!-- columna lado derecho -->
+					<div class="row">
+						<div class="col-md-4 col-xs-12 foto-chica1" ondragover="permitirDrop(event)" ondrop="drop(event)"> <!-- foto arriba -->
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-xs-12 foto-chica2" ondragover="permitirDrop(event)" ondrop="drop(event)"> <!-- foto abajo -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="galeria">
+	<div class="col-md-12 col-md-offset-3">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="col-md-4 col-xs-3">
+					<img id="foto4" draggable="true" ondragstart="drag(event)" src="img/foto4.jpg">
+				</div>
+				<div class="col-md-4 col-xs-3">
+					<img id="foto2" draggable="true" ondragstart="drag(event)" src="img/foto2.jpg">
+				</div>
+				<div class="col-md-4 col-xs-3">
+					<img id="foto3" draggable="true" ondragstart="drag(event)" src="img/foto3.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="col-md-4 col-xs-3">
+					<img id="foto4" draggable="true" ondragstart="drag(event)" src="img/foto4.jpg">
+				</div>
+				<div class="col-md-4 col-xs-3">
+					<img id="foto2" draggable="true" ondragstart="drag(event)" src="img/foto2.jpg">
+				</div>
+				<div class="col-md-4 col-xs-3">
+					<img id="foto3" draggable="true" ondragstart="drag(event)" src="img/foto3.jpg">
+				</div>
+			</div>	
+		</div>
+	</div>	
+	</section>
+		
 	</div>
 
 <!-- archivos de javascript -->
